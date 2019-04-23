@@ -15,7 +15,7 @@ public:
      * @param content 输出参数，具体选择的合同的内容
      * @param route_param 用来提供给路由算法运行的额外参数
      */
-	virtualvoidRouteToSevice(const ContractCache& cache, std::string* content,
+	virtual void RouteToSevice(const ContractCache& cache, std::string* content,
                              void* route_param = NULL);
 	/**
 	  路由器的写法非常简单，也附带了一个 route_param 用来帮助传递一些路由选择所需
